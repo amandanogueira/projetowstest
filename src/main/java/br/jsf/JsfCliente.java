@@ -50,7 +50,7 @@ public class JsfCliente{
     
     private Cidade cidade = new Cidade();
     private Cliente cliente = new Cliente();
-    private ArrayList<Cidade> cidades;
+    private ArrayList<Cidade> cidades = new ArrayList();
 
     public Cidade getCidade() {
         return cidade;
